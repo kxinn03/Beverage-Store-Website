@@ -1,0 +1,138 @@
+h3,
+h2 {
+  padding-left: 10px;
+}
+
+.paragraph {
+  padding-left: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+  font-variant: small-caps;
+  font-size: larger;
+  color: rgb(84, 24, 92);
+}
+
+fieldset {
+  padding-left: 8%;
+  margin: 0px 190px -11px 95px;
+}
+
+#customerinfo > legend {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input[type="submit"] {
+  background-color: #54c558;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 24px;
+  margin: 4px 2px;
+  border-radius: 30px;
+  cursor: pointer;
+  float: right;
+}
+
+.benefitsinfo h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  padding-top: 25px;
+}
+
+.benefitsinfo table {
+  width: 80%;
+  height: 50%;
+  margin-top: -26px;
+  margin-left: 100px;
+  margin-bottom: 35px;
+  border-style: dotted;
+  border-color: rgb(135, 161, 146);
+  border-width: 5px;
+  padding: 5px 24px 17px 27px;
+}
+
+.benefitsinfo th {
+  padding: 6px;
+  text-align: initial;
+}
+
+.benefitsinfo td {
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+.benefitsinfo > table > caption {
+  caption-side: bottom;
+  text-align: right;
+}
+
+@media screen and (max-width: 1919px) {
+  fieldset {
+    padding-left: 3%;
+    margin: 0px 170px -11px 100px;
+  }
+}
+
+@media screen and (max-width: 1174px) {
+  fieldset {
+    padding-left: 3%;
+    margin: 0px 130px -11px 100px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  fieldset {
+    padding-left: 3%;
+    margin: 0px 111px -11px 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  fieldset {
+    padding-left: 3%;
+    margin: 0px 77px -11px 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  fieldset {
+    padding-left: 3%;
+    margin: 0px 33px -11px 100px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  fieldset {
+    margin: 0px 87px -11px 20px;
+  }
+
+  .benefitsinfo table {
+    width: 80%;
+    height: 50%;
+    margin-top: -26px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    border-style: dotted;
+    border-color: rgb(135, 161, 146);
+    border-width: 5px;
+    padding: 0px 3px 17px 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  fieldset {
+    margin: 0px 7px -11px 2px;
+  }
+
+  .benefitsinfo table {
+    height: 50%;
+    margin-top: -26px;
+    margin-left: 2px;
+    margin-bottom: 35px;
+    border-style: dotted;
+    border-color: rgb(135, 161, 146);
+    border-width: 5px;
+    padding: 0px 3px 17px 0px;
+  }
+}

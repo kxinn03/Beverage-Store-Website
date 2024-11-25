@@ -1,0 +1,138 @@
+html {
+  width: 1440px;
+}
+body {
+  background-color: rgb(197, 198, 197);
+}
+.name p {
+  font-weight: 550;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  color: #212529;
+}
+.PA img {
+  display: table;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.PAinfo {
+  text-align: center;
+  margin-left: 400px;
+  margin-top: -450px;
+  font-size: 28px;
+  color: rgb(33, 37, 41);
+}
+.PA p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  color: rgb(64, 64, 64);
+  line-height: 1.2em;
+  font-weight: 100;
+  margin-bottom: 50px;
+  margin-left: 680px;
+  margin-right: 300px;
+  padding-left: -100px;
+  padding-right: -100px;
+}
+.supervisor img {
+  display: table;
+  margin-top: 350px;
+  margin-left: 680px;
+}
+.supervisorinfo {
+  text-align: center;
+  margin-left: -700px;
+  margin-top: -400px;
+  font-size: 28px;
+  color: rgb(33, 37, 41);
+}
+.supervisor p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  color: rgb(64, 64, 64);
+  line-height: 1.2em;
+  font-weight: 100;
+  margin-left: -150px;
+  margin-right: 550px;
+  padding-left: 320px;
+  padding-right: 320px;
+}
+.barista {
+  padding-bottom: 500px;
+}
+.barista img {
+  display: table;
+  margin-top: 160px;
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+.baristainfo {
+  text-align: center;
+  margin-left: 450px;
+  margin-top: -530px;
+  font-size: 28px;
+  color: rgb(33, 37, 41);
+}
+.barista p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  color: rgb(64, 64, 64);
+  line-height: 1.2em;
+  font-weight: 100;
+  margin-left: 380px;
+  margin-right: -140px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .PA img {
+    display: table;
+    margin-top: 50px;
+    margin-left: 450px;
+  }
+  .PAinfo {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .PA p {
+    margin-left: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .supervisor img {
+    display: table;
+    margin-top: 50px;
+    margin-left: 450px;
+  }
+  .supervisorinfo {
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  .supervisor p {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .barista img {
+    display: table;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+  }
+  .baristainfo {
+    margin-top: 0px;
+    margin-left: -10px;
+  }
+  .barista p {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}

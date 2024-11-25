@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="/css/all.css" rel="stylesheet"/>
+    <link href="/css/payment.css" rel="stylesheet"/>
+    <script src="/js/payment.js" defer></script>
+    <title>KAI XIN SHIN TEA . Payment</title>
+
+</head>
+  <body>
+    <h1>PAYMENT</h1>
+    <nav>
+        <ul class="navbar">
+            <li><a href="/html/home.html">Home</a></li>
+            <li><a href="/html/aboutus.html">About Us</a></li>
+            <li><a href="/html/menu.html">Menu</a>
+                <ul class="subMenu">
+                    <li><a href="/html/detail_page.html">Details </a></li>
+                </ul>
+            </li>
+            <li><a href="/html/membership.html">Membership</a></li>
+            <li><a href="/html/joinus.html">Join Us</a>
+                <ul class="subMenu">
+                    <li><a href="/html/jobposition.html">Job Positions</a></li>
+                </ul> 
+            </li>
+            <li><a href="/html/outlets.html">Outlets</a></li>
+            <li><a href="/html/event_update.HTML">Event Update</a></li>
+            <li><a href="/html/privacy.html">Privacy Policy</a>
+                <ul class="subMenu">
+                    <li><a href="/html/t&c.html">Terms And Conditions</a></li>
+                </ul>
+            </li>
+            <li><a href="/html/customer.html">Customer Feedback</a></li>
+        </nav> 
+
+        <button onclick="myFunction()"class="cancle"><b>Cancle Order</b></button>
+ 
+      <form action="#" class="form" name="form" method="post">
+        <div class="progressbar">
+          <div class="progress" id="progress"></div>
+          
+          <div
+          class="progressstep progressstep1"
+          data-title="Information"
+          ></div>
+          <div class="progressstep" data-title="Delivery/Pickup"></div>
+          <div class="progressstep" data-title="Date&Time"></div>
+          <div class="progressstep" data-title="Payment Method"></div>
+        </div>
+        
+        <div class="formstep formstep1">
+          <h2 class="text-center">Contact Information</h1>
+  
+          <div class="inputgroup">
+            <label for="username">Full Name :</label>
+            <input type="text" name="username" id="username" placeholder="Jeffery" required/>
+          </div>
+          <div class="inputgroup">
+            <label for="contact">Phone Number :</label>
+            <input type="text" name="contact" id="contact" placeholder="012-123 4567" required/>
+          </div>
+          <div class="inputgroup">
+              <label for="email">Email :</label>
+              <input type="text" name="email" id="email" placeholder="Jeffery@example.com" required/>
+          </div>
+
+          <div class="">
+            <a href="#" class="button buttonnext">Next</a>
+          </div>
+        </div>
+        
+        <div class="formstep">
+          <h2 class="text-center">Delivery / Pickup</h1>
+            <label class="container">Delivery
+              <input type="radio" checked="checked" name="radio"id="Delivery">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">Pickup
+              <input type="radio" name="radio"id="Pickup">
+              <span class="checkmark"></span>
+            </label>
+           
+          <div class="inputgroup">
+            <label for="name">Address</label>
+            <input type="text" name="address" id="address"placeholder="1, Jalan 1/23..."required/>
+          </div>
+          <div class="inputgroup">
+            <label for="contact">Postcode :</label>
+            <input type="text" name="postcode" id="postcode"placeholder="50000"required/>
+          </div>
+          <div class="inputgroup">
+              <label for="outlets">Outlets :</label>
+              <select name="outlets" id="outlets">
+                  <option value="Aman Central">Aman Central</option>
+                  <option value="Bukit Setongkol">Bukit Setongkol</option>
+                  <option value="Icon City">Icon City</option>
+                  <option value="Putra Square">Putra Square</option>
+                  <option value="Setapak">Setapak</option>
+                  <option value="SS15">SS15</option>
+                  <option value="SS2">SS2</option>
+                  <option value="Sunway Carnival">Sunway Carnival</option>
+                  <option value="Taman Seri Orkid">Taman Seri Orkid</option>
+                  <option value="Taman Setia Indah">Taman Setia Indah</option>
+                  <option value="Queensbay">Queensbay</option>
+               </select>          </div>
+          <div class="buttongroup">
+            <a href="#" class="button buttonprev">Previous</a>
+            <a href="#" class="button buttonnext">Next</a>
+          </div>
+        </div>
+        <div class="formstep">
+          <h2 class="text-center">Date and Time</h1>
+            
+          <div class="inputgroup">
+            <label for="date">Date Delivery/Pickup :</label>
+            <input type="date" name="date" id="date"required/>
+          </div>
+          <div class="inputgroup">
+            <label for="ID">Time Delivery/Pickup :</label>
+            <input type="time" name="ID" id="ID" required/>
+          </div>
+          <div class="buttongroup">
+            <a href="#" class="button buttonprev">Previous</a>
+            <a href="#" class="button buttonnext">Next</a>
+          </div>
+        </div>
+        <div class="formstep">
+          <h2 class="text-center">Payment Method</h1>
+            <label class="container">Cash
+              <input type="radio"  name="radio"id="Cash">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">Debit Card
+              <div class="icon">
+                <img src="/picture/visa.png"width="50">
+                <img src="/picture/mastercard.png"width="50">
+                <img src="/picture/american-express.png"width="50">
+              </div>
+              <input type="radio" name="radio"id="Debit Card"checked="checked">
+              <span class="checkmark"></span>
+            </label>
+          <div class="inputgroup">
+            <label for="num">Card Number :</label>
+            <input type="text" name="num" id="num" required/>
+            <label for="exp">Exp Date(MM/YY) :</label>
+            <input type="text" name="exp" id="exp" required/>
+            <label for="cvv">CVV :</label>
+            <input type="text" name="cvv" id="cvv" required/>
+          </div>
+          <div class="button-group">
+            <a href="#" class="button buttonprev">Previous</a>
+            <a href="/html/complete.html" class="complete">Place Order</a>
+          </div>
+        </div>
+      </form>
+  </body>
+  <footer><br/>KAI XIN SHIN All right reserved . BEVERAGES . ONLINE WEBSITE</footer>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const nextButtons = document.querySelectorAll(".buttonnext");
+    const prevButtons = document.querySelectorAll(".buttonprev");
+    const formSteps = document.querySelectorAll(".formstep");
+    let currentStep = 0;
+
+    nextButtons.forEach((btn, index) => {
+      btn.addEventListener("click", () => {
+        const form = formSteps[currentStep];
+        if (form.querySelector("form").checkValidity()) {
+          formSteps[currentStep].classList.add("hidden");
+          currentStep++;
+          formSteps[currentStep].classList.remove("hidden");
+        } else {
+          form.querySelector("form").reportValidity();
+        }
+      });
+    });
+
+    prevButtons.forEach((btn, index) => {
+      btn.addEventListener("click", () => {
+        formSteps[currentStep].classList.add("hidden");
+        currentStep--;
+        formSteps[currentStep].classList.remove("hidden");
+      });
+    });
+  });
+</script>
+
+</html>

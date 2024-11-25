@@ -1,0 +1,143 @@
+<!--
+    KAI XIN SHIN TEA Membership Page
+    Author: Ting Xin Yi
+    Date: 16-11-2021
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="milk tea, kai xin shin, boba">
+    <title>KAI XIN SHIN TEA . Membership</title>
+    <link href="/css/all.css" rel="stylesheet"/>
+    <link href="/css/membership.css" rel="stylesheet" />
+    <script type="text/javascript" src="/js/membership.js" defer></script>
+</head>
+
+<style>
+    body{
+       background-image: url('/picture/member-backgrd.png');
+       background-repeat: no-repeat;
+       background-position: top;
+       background-size: cover;
+    }
+</style>
+
+<body>
+    <h4><img src="/picture/headerlogo.png" alt="logo" usemap="#hotspot">MEMBER CLUB</h4>
+    <nav>
+        <ul class="navbar">
+            <li><a href="/html/home.html">Home</a></li>
+            <li><a href="/html/aboutus.html">About Us</a></li>
+            <li><a href="/html/menu.html">Menu</a>
+                <ul class="subMenu">
+                    <li><a href="/html/detail_page.html">Details </a></li>
+                </ul>
+            </li>
+            <li><a href="/html/membership.html">Membership</a></li>
+            <li><a href="/html/joinus.html">Join Us</a>
+                <ul class="subMenu">
+                    <li><a href="/html/jobposition.html">Job Positions</a></li>
+                </ul> 
+            </li>
+            <li><a href="/html/outlets.html">Outlets</a></li>
+            <li><a href="/html/event_update.HTML">Event Update</a></li>
+            <li><a href="/html/privacy.html">Privacy Policy</a>
+                <ul class="subMenu">
+                    <li><a href="/html/t&c.html">Terms And Conditions</a></li>
+                </ul>
+            </li>
+            <li><a href="/html/customer.html">Customer Feedback</a></li>
+        </nav>   
+    
+    <div>
+        <h3>Hey, join our <b>MEMBER CLUB</b> to get 10% discount for every purchases * ( only when purchase at physical store) !</h3> 
+    </div>
+
+    <div class="paragraph">
+       <p>Dear all, you may join our member via online or register at our physical store. <br/> Decided to join now? Fill in the form below &#10002;</p>
+    </div>
+
+    <div>
+        <form name="member" method="post" action="?">
+            <fieldset id="customerinfo">
+                <legend>Join Our Member Club ?</legend>
+                <p>Fill the form below to be one of the KAI XIN SHIN family's member.</p>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Kai" required><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Xin Shin" required><br><br>
+                <label for="phone">Phone No: +60</label>
+                <input type="tel" id="phone" name="phone" placeholder="11-12345678"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="ali1122@gmail.com" required><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday" required><br><br>
+                <input type="submit" value="Submit" onclick="checkValidity()"/>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="benefitsinfo">
+        <h2>BENEFITS FOR MEMBERS</h2>
+        <table>
+        <thead>
+            <caption>&#128523; = able.</caption>
+            <tr><th colspan="4" style="background-color: rgb(248, 253, 231); 
+                    color: rgb(40, 199, 66);">~ THINGS YOU SHOULD KNOW ~</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>BRONZE</th>
+                <th>SILVER</th>
+                <th>GOLD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Earn Point</th>
+                <td>&#128523;</td>
+                <td>&#128523;</td>
+                <td>&#128523;</td>
+            </tr>
+            <tr>
+                <th>Birthday Gift</th>
+                <td>&#128523;</td>
+                <td>&#128523;</td>
+                <td>&#128523;</td>
+            </tr>           
+            <tr>
+                <th>Enjoy 10% discount for every purchase</th>
+                <td>&#128523;</td>
+                <td>&#128523;</td>
+                <td>&#128523;</td>
+            </tr>
+            <tr>
+                <th>Redeem exclusive merchandise with point earned</th>
+                <td>&#128523;</td>
+                <td>&#128523;</td>
+                <td>&#128523;</td>
+            </tr>
+            <tr>
+                <th>Buy 6 Free 1 on every Monday</th>
+                <td></td>
+                <td>&#128523;</td>
+                <td>&#128523;</td>
+            </tr>
+            <tr>
+                <th>Be the first to try our new drinks</th>
+                <td></td>
+                <td></td>
+                <td>&#128523;</td>
+            </tr>
+            <br/>
+        </table>
+    </div>
+
+    <map name="hotspot">
+        <area shape="circle" coords="191,170,368" href="/html/home.html">
+    </map>
+</body>
+<footer>KAI XIN SHIN All right reserved . BEVERAGES . ONLINE WEBSITE</footer>
+</html>

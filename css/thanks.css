@@ -1,0 +1,20 @@
+/* 
+    KAI XIN SHIN TEA Menu
+    Author: CHEAH SHIN YEE
+    Date: 24-11-2021
+    Filename: thanks.css
+*/
+
+/* Menu Body Style */
+body {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  height: 98vh;
+  background: url(/picture/thanks.jpg) no-repeat center center/cover;
+}
+
+#home {
+  margin: -55px 800px 0px 0px;
+  display: block;
+}

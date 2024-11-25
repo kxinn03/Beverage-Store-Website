@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 5502,
+    "liveshare.allowGuestTaskControl": true,
+    "liveshare.allowGuestDebugControl": true,
+    "liveshare.languages.allowGuestCommandControl": true
+}

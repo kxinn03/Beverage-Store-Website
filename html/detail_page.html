@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="milk tea, kai xin shin, boba">
+    <title>KAI XIN SHIN TEA . DRINKS's detail</title>
+    <link href="/css/all.css" rel="stylesheet"/>
+    <link href="/css/details_page.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <!--menu details-->
+    <h4><img src="/picture/headerlogo.png" alt="logo" usemap="#hotspot">MENU DETAILS</h4>
+    <nav>
+        <ul class="navbar">
+            <li><a href="/html/home.html">Home</a></li>
+            <li><a href="/html/aboutus.html">About Us</a></li>
+            <li><a href="/html/menu.html">Menu</a>
+                <ul class="subMenu">
+                    <li><a href="/html/detail_page.html">Details </a></li>
+                </ul>
+            </li>
+            <li><a href="/html/membership.html">Membership</a></li>
+            <li><a href="/html/joinus.html">Join Us</a>
+                <ul class="subMenu">
+                    <li><a href="/html/jobposition.html">Job Positions</a></li>
+                </ul> 
+            </li>
+            <li><a href="/html/outlets.html">Outlets</a></li>
+            <li><a href="/html/event_update.HTML">Event Update</a></li>
+            <li><a href="/html/privacy.html">Privacy Policy</a>
+                <ul class="subMenu">
+                    <li><a href="/html/t&c.html">Terms And Conditions</a></li>
+                </ul>
+            </li>
+            <li><a href="/html/customer.html">Customer Feedback</a></li>
+        </nav> 
+
+            <a href="/html/menu.html"id="back-to-series">
+              <div class="return"><img src="/picture/back1.png"alt="back"></div>
+            </a>
+        <div>
+            <a href="#down"id="to-pay">
+               <div class="pay"><img src="/picture/car2-removebg-preview.png" alt="Cart"></div>
+            </a>
+        </div>
+
+    <h2>Signature</h2>
+    <div class="flex-container">
+        <div>
+            <img src="/picture/bubble-milk-tea.png" alt="boba milk tea"/>
+            <div class="info-header"id="tea1">
+                <p><b>Delighted Pearl Milk Tea<br/>開心珍珠奶茶</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Tapioca Pearl, Fresh Milk / Oat Milk, Black Tea, Sugar, Ice
+            </div>
+            <div class="taste">
+                Delighted Pearl Milk Tea is a cold, frothy drink made with a tea base shaken with flavors, sweeteners and/or milk with tapioca pearls at the base of the drink.
+            </div>
+            <div class="price">
+                Price: 8.50 (R)  &nbsp&nbsp 9.50 (L)
+            </div>
+            <div class="order">
+                <button class="choose" onclick="choose(1)">Order</button>
+            </div>
+        </div>
+        <div>
+            <img src="/picture/grass-jellymilk-tea.png" alt="grass jelly milktea"/>
+            <div class="info-header"id="tea2">
+                <p><b>Delighted Grass Jelly Milk Tea<br/>開心仙草奶茶</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Grass Jelly, Fresh Milk / Oat Milk, Black Tea, Brown Sugar, Ice
+            </div>
+            <div class="taste">
+                Delighted Pearl Milk Tea is a cold, frothy drink made with a tea base shaken with flavors, sweeteners and/or milk with tapioca pearls at the base of the drink.
+            </div>
+            <div class="price">
+                Price: 8.50 (R) &nbsp&nbsp 9.50 (L)
+            </div>
+            <div class="order">
+                <button  class="choose" onclick="choose(2)">Order</button>
+            </div>
+        </div>
+        <div>
+              <img src="/picture/coffee-tea.png" alt="coffee milk tea"/>
+            <div class="info-header"id="tea3">
+                <p><b>Coffee Milk Tea<br/>咖啡奶茶</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Arabica Coffee, Fresh Milk / Oat Milk, Black Tea, Kosher Salt, Brown Sugar, Ice
+            </div>
+            <div class="taste">
+                This harmonious combination of the coffee and tea makes it a great option if you’re feeling indecisive, or just want to try a twist on your favorite daily drink.        
+            </div>
+            <div class="price">
+                Price: 10.50 (R) &nbsp&nbsp 12.50(L)
+            </div>
+            <div class="order">
+                <button  class="choose" onclick="choose(3)">Order</button>
+            </div>
+        </div>
+        <div>
+            <div class="img-choco">
+              <img src="/picture/favpng_tea-chocolate-milk.png" alt="chocolate milk tea" style="margin-right:65px;"/>
+            </div>
+            <div class="info-header"id="tea4">
+                <p><b>Chocolate Milk Tea<br/>可可奶茶</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: VAN HOUTEN Cocoa Powder, Full Cream Milk / Oat Milk, Black Tea, Refined Sugar, Ice
+            </div>
+            <div class="taste">
+                Who could say no to chocolate? This drink have the creamy, milky feel you may be going for. It’s perfect as an after-dinner drink or dessert.
+            </div>
+            <div class="price">
+                Price: 10.50 (R) &nbsp&nbsp 12.50(L)
+            </div>
+            <div class="order">
+                <button class="choose" onclick="choose(4)">Order</button>
+            </div>
+        </div>
+        <div>
+            <div class="img-size-earl-grey">
+               <img src="/picture/earl-grey-tea.png" alt="earl grey milk tea"/>
+            </div>  
+            <div class="info-header"id="tea5">
+                <p><b>Earl Grey Milk Tea<br/>格雷伯爵奶茶</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: VAN HOUTEN Cocoa Powder, Full Cream Milk / Oat Milk, Black Tea, Refined Sugar, Ice
+            </div>
+            <div class="taste">
+                Flavors of Earl Grey made with cold brew tea and sweetened with brown sugar syrup, 
+                this iced milk tea is perfect for waking up on hot summer days.
+            </div>
+            <div class="price">
+                Price: 8.50 (R) &nbsp&nbsp 9.50(L)
+            </div>
+            <div class="order">
+                <button class="choose" onclick="choose(5)">Order</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="p2"></div>
+    <h2>Matcha Lover</h2>
+    <div class="flex-container">
+        <div>
+            <div class="img-matcha-latte">
+               <img src="/picture/matcha-latte.png" alt="matcha latte"/>
+            </div>
+            <div class="info-header"id="tea6">
+                <p><b>Delighted Matcha Latte<br/>開心抹茶拿铁</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Premium Matcha Powder, Fresh Milk / Oat Milk, Coconut Milk, Maple syrup, Whipping Cream, Ice
+            </div>
+            <div class="taste">
+                The green tea gives this milky frothy drink a sweet, Moorish vegetal taste. You really have to try a matcha latte for yourself to truly understand its unique and smooth taste.
+            </div>
+            <div class="price">
+                Price: 9.50 (R)  &nbsp&nbsp 11.50 (L)
+            </div>
+            <div class="order">
+                <button  class="choose" onclick="choose(6)">Order</button>
+            </div>
+        </div>
+        <div>
+            <div class="img-matcha-oreo">
+               <img src="/picture/milk-matcha oreo.png" alt="oreo matcha"/>
+            </div>
+            <div class="info-header"id="tea7">
+                <p><b>Uji Matcha Oreo Milk Tea<br/>抹茶奥利奥</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Premium Matcha Powder, Fresh Milk / Oat Milk, Coconut Milk, Maple syrup, Oreo Crumbs, Ice
+            </div>
+            <div class="taste">
+                A delicious dessert-like drink, a rich blend of our Uji green milk tea poured into a maple syrup cup with a crumbled Oreos taste the extra crunch with every sip.
+            </div>
+            <div class="price">
+                Price: 10.50 (R)  &nbsp&nbsp 12.50 (L)
+            </div>
+            <div class="order">
+                <button  class="choose" onclick="choose(7)">Order</button>
+            </div>
+        </div>
+        <div>
+            <div class="img-matcha-redbean">
+                <img src="/picture/red bean-matcha.png" alt="red bean matcha"/>
+             </div>
+             <div class="info-header"id="tea8">
+                 <p><b>Red Bean Uji Matcha<br/>甜蜜抹茶</b></p>
+             </div>
+             <div class="info-in">
+                 - Ingredient: Premium Matcha Powder, Fresh Milk / Oat Milk, Coconut Milk, Maple syrup, Oreo Crumbs, Ice
+             </div>
+             <div class="taste">
+                Matcha powder is a unique balance of bitter, vegetal (think seaweed or edamame), and malty flavours, while the red beans add sweetness to the drink.
+            </div>
+             <div class="price">
+                 Price: 10.50 (R)  &nbsp&nbsp 11.50 (L)
+             </div>
+             <div class="order">
+                <button  class="choose" onclick="choose(8)">Order</button>
+             </div>        
+        </div>
+        <div>
+            <div class="img-matcha-boba">
+                <img src="/picture/boba-matcha.png" alt="boba matcha"/>
+             </div>
+             <div class="info-header"id="tea9">
+                 <p><b>Uji Matcha with Boba<br/>波霸抹茶</b></p>
+             </div>
+             <div class="info-in">
+                 - Ingredient: Premium Matcha Powder, Fresh Milk / Oat Milk, Coconut Milk, Maple syrup, Boba, Ice
+             </div>
+             <div class="taste">
+                Treat yourself to a creamy and energizing Matcha bubble milk tea! Satisfy your bubble tea or boba craving while getting all the health benefits of matcha.
+            </div>
+             <div class="price">
+                 Price: 10.50 (R)  &nbsp&nbsp 12.50 (L)
+             </div>
+             <div class="order">
+                <button  class="choose" onclick="choose(9)">Order</button>
+             </div>
+        </div>
+    </div>
+    <div id="p3"></div>
+    <h2>Premium Fruit Tea</h2>
+    <div class="flex-container">
+        <div>
+            <img src="/picture/lemon-tea.png" alt="lemon oolong tea" style="margin-top: 10px; margin-bottom: 22px;"/>
+            <div class="info-header"id="tea10">
+                <p><b>Lemon Oolong Tea<br/>柠檬乌龙茶</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Fresh Lemon, Lemon Extract, Oolong Tea, , Refined Sugar, Honey, Ice
+            </div>
+            <div class="taste">
+                Drank this floral, fruity Lemon Oolong Tea, you will not only boost its health effects and support the antioxidant intake, but speed up your metabolism, and also support the natural detoxification process.
+            </div>
+            <div class="price">
+                Price: 9.50 (R)  &nbsp&nbsp 9.50 (L)
+            </div>
+            <div class="order">
+                <button  class="choose" onclick="choose(10)">Order</button>
+            </div>
+        </div>
+        <div>
+            <div class="img-strawberry">
+               <img src="/picture/strawberry-black-tea.png" alt="strawberry black tea"/>
+            </div>
+            <div class="info-header"id="tea11">
+                <p><b>Strawberry Black Tea<br/>凉爽莓莓</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Fresh Strawberry, Black Tea, Lime, Granulated Sugar, Ice
+            </div>
+            <div class="taste">
+                Strawberry black tea combines the succulent taste of sweet strawberries with black tea. Berry flavor, smooth and sugary texture. It's a treat you'll want to keep for yourself! 
+            </div>
+            <div class="price">
+                Price: 10.50 (R)  &nbsp&nbsp 12.50 (L)
+            </div>
+            <div class="order">
+                <button  class="choose" onclick="choose(11)">Order</button>
+            </div>
+        </div>
+        <div>
+            <div class="img-lychee">
+                <img src="/picture/lychee-green-tea.png" alt="lychee green tea"/>
+             </div>
+             <div class="info-header"id="tea12">
+                 <p><b>Lychee Jasmine Green Tea<br/>荔枝茉莉</b></p>
+             </div>
+             <div class="info-in">
+                 - Ingredient: Premium Lychee, Jasmine Green Tea, Lychee syrup, Refined Sugar, Ice
+             </div>
+             <div class="taste">
+                Green tea, jasmine, and juicy, sweet lychee fruit come together in this blend. Smooth and fruity taste sure to get your taste buds zinging. From the first sip, you’ll understand what makes it so popular!
+            </div>
+             <div class="price">
+                 Price: 10.50 (R)  &nbsp&nbsp 12.50 (L)
+             </div>
+             <div class="order">
+                <button  class="choose" onclick="choose(12)">Order</button>
+             </div>
+        </div>
+        <div>
+            <div class="img-kiwi">
+             <img src="/picture/green-tea-moothie.png" alt="kiwi honey"/>
+            </div>
+             <div class="info-header"id="tea13">
+                 <p><b>Supreme Kiwi Honey<br/>至上猕猴桃</b></p>
+             </div>
+             <div class="info-in">
+                 - Ingredient: Zespri's Fresh Kiwi, Lemon Juice, Jasmine Green Tea, Honey, Ice
+             </div>
+             <div class="taste">
+                With a unique taste, the Supreme Kiwi Honey has a tangy taste that is great for making a refreshing kiwi drink. This can be taken as a light meal and are a real treat on warm days.
+            </div>
+             <div class="price">
+                 Price: 9.50 (R)  &nbsp&nbsp 10.50 (L)
+             </div>
+             <div class="order">
+                <button  class="choose" onclick="choose(13)">Order</button>
+             </div>
+        </div>
+        <div>
+            <div class="img-blueberry">
+              <img src="/picture/blueberry-tea.png" alt="blueberry blueberry tea"/>
+            </div>
+            <div class="info-header"id="tea14">
+                <p><b>Supreme Blueberry<br/>至上蓝莓</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Premium Blueberry, Black Tea, Yogurt Syrup, Manuka Honey, Ice
+            </div>
+            <div class="taste">
+                A cup of Blueberry black tea is a must-tea for every tea lover. It has a strong fruit flavor and good body, and a smooth, long-lasting finish. It can reduce the risk of developing tumors and cancer.
+            </div>
+            <div class="price">
+                Price: 10.50 (R)  &nbsp&nbsp 12.50 (L)
+            </div>
+            <div class="order">
+                <button  class="choose" onclick="choose(14)">Order</button>
+            </div>
+       </div>
+    </div>
+    <div id="p4"></div>
+    <h2>Special For You</h2>
+    <div class="flex-container">
+        <div>
+            <div class="img-hibiscus">
+               <img src="/picture/kisspng-hibiscus-tea.png" alt="hibiscus tea"/>
+            </div>
+            <div class="info-header"id="tea15">
+                <p><b>Hisbiscus Tea<br/>養顏花茶</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Dried Hisbiscus Flowers, Cinnamon Sick, Lime slice, Honey
+            </div>
+            <div class="taste">
+                Hibiscus tea has a flavor profile that includes fruity, sweet and sour.
+                It can help boost your immune system and may help to prevent cell damage caused by free radicals in the body.
+            </div>
+            <div class="price">
+                Price: 9.50 (R)  &nbsp&nbsp 11.50 (L)
+            </div>
+            <div class="order">
+                <button class="choose" onclick="choose(15)">Order</button>
+            </div>
+        </div>
+        <div>
+            <div class="img-rebina">
+               <img src="/picture/kisspng-flowering-tea.png" alt="Roselle tea" style="margin-right: 50px;"/>
+            </div>
+            <div class="info-header"id="tea16">
+                <p><b>Roselle Tea<br/>洛神花花茶</b></p>
+            </div>
+            <div class="info-in">
+                - Ingredient: Rosella, Lemon Grass Leaves, Ginger, Refined Sugar, Ice
+            </div>
+            <div class="taste">
+                Drinking roselle juice has many health benefits. Dinking roselle juice may help relieve menstrual cramps and is an anti-inflammatory. 
+                Additionally, it can support a healthy digestive.
+            </div>   
+            <div class="price">
+                Price: 10.50 (R)  &nbsp&nbsp 12.50 (L)
+            </div>
+            <div class="order">
+                <button class="choose" onclick="choose(16)">Order</button>
+            </div>
+        </div>
+        <div>
+            <div class="img-herbal">
+                <img src="/picture/kisspng-herbal-tea.png" alt="herbal tea"/>
+             </div>
+             <div class="info-header"id="tea17">
+                 <p><b>Herbal Tea<br/>清凉茶</b></p>
+             </div>
+             <div class="info-in">
+                 - Ingredient: Ginseng Root, Green Tea, Peppermint Leaves, Rock Sugar
+             </div>
+             <div class="taste">
+                The antioxidants and vitamins found in herbal teas are great for helping fight disease and infections, 
+                protect against oxidative stress and lower the risk of chronic disease.             
+            </div>
+             <div class="price">
+                 Price: 10.50 (R)  &nbsp&nbsp 12.50 (L)
+             </div>
+             <div class="order">
+                <button class="choose" onclick="choose(17)">Order</button>
+             </div>       
+        </div>
+    </div>
+
+<!--Selection part, aft user click the order button -->
+<div class="containertea1">
+    <div class="modal1">
+        <h6> Delighted Pearl Milk Tea </br>開心珍珠奶茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/bubble-milk-tea.png"alt="boba milk tea"width="350px"height="350px";>
+              </div>
+              <div class="taste2">
+                Delighted Pearl Milk Tea is a cold, frothy drink made with a tea base shaken with flavors, 
+                sweeteners and/or milk with tapioca pearls at the base of the drink.
+              </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium1"class="v-raw">Regular (500ml) <div class="cost">RM 8.50</div>
+              <input type="radio" name="size1" id="medium1" value="8.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large1"class="v-raw">Large (700ml) <div class="cost">RM 9.50</div>
+              <input type="radio" name="size1" id="large1" value="9.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings1">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings1">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings1">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings1">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings1">
+                <span class="checkmark"></span>
+            </label>
+            <button class="click" onclick="addtea(1)">Add to cart</button>
+            <span class="click-close" onclick="closeM()">x</span> 
+        </div>
+    </div>
+</div>
+<div class="containertea2">
+    <div class="modal2">
+        <h6> Delighted Grass Jelly Milk Tea </br>開心仙草奶茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/grass-jellymilk-tea.png"alt="grass jelly milk tea"width="350px"height="350px";>
+              </div>
+              <div class="taste2">
+                Soft and silky-smooth, from the taste of the tea to the toppings themselves. We recommend this mild milk tea for first-timers who are ready to fall in love with the world of tea!
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium2"class="v-raw">Regular (500ml) <div class="cost">RM 8.50</div>
+              <input type="radio" name="size2" id="medium2" value="8.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large2"class="v-raw">Large (700ml) <div class="cost">RM 9.50</div>
+              <input type="radio" name="size2" id="large2" value="9.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings2">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings2">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings2">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings2">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings2">
+                <span class="checkmark"></span>
+            </label>
+            <button class="click" onclick="addtea(2)">Add to cart</button>
+            <span class="click-close" onclick="closeM()">x</span> 
+        </div>
+    </div>
+</div>
+<div class="containertea3">
+    <div class="modal3">
+        <h6> Coffee Milk Tea</br>咖啡奶茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/coffee-tea.png"alt="coffee milk tea"width="350px"height="350px";>
+              </div>
+              <div class="taste3">
+                This harmonious combination of the coffee and tea makes it a great option if you’re feeling indecisive, 
+                or just want to try a twist on your favorite daily drink.        
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium3"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size3" id="medium3" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large3"class="v-raw">Large (700ml) <div class="cost">RM 12.50</div>
+              <input type="radio" name="size3" id="large3" value="12.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings3">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings3">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings3">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings3">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings3">
+                <span class="checkmark"></span>
+            </label>
+            <button class="click" onclick="addtea(3)">Add to cart</button>
+            <span class="click-close" onclick="closeM()">x</span> 
+        </div>
+    </div>
+</div>
+<div class="containertea4">
+    <div class="modal4">
+        <h6> Chocolate Milk Tea</br>可可奶茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/favpng_tea-chocolate-milk.png"alt="chocolate milk tea"width="350px"height="350px";>
+              </div>
+              <div class="taste4">
+                Who could say no to chocolate? While it’s quite different than hot chocolate, it still has that creamy, milky feel you may be going for. It’s perfect as an after-dinner drink or dessert.
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium4"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size4" id="medium4" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large4"class="v-raw">Large (700ml) <div class="cost">RM 12.50</div>
+              <input type="radio" name="size4" id="large4" value="12.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings4">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings4">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings4">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings4">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings4">
+                <span class="checkmark"></span>
+            </label>
+            <button class="click" onclick="addtea(4)">Add to cart</button>
+            <span class="click-close" onclick="closeM()">x</span> 
+        </div>
+    </div>
+</div>
+<div class="containertea5">
+    <div class="modal5">
+        <h6> Earl Grey Milk Tea</br>格雷伯爵奶茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/earl-grey-tea.png"alt="earl grey milk tea"width="350px"height="350px";>
+              </div>
+              <div class="taste5">
+                Flavors of Earl Grey made with cold brew tea and sweetened with brown sugar syrup, this iced milk tea is perfect for waking up on hot summer days.
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium5"class="v-raw">Regular (500ml) <div class="cost">RM 8.50</div>
+              <input type="radio" name="size5" id="medium5" value="8.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large5"class="v-raw">Large (700ml) <div class="cost">RM 9.50</div>
+              <input type="radio" name="size5" id="large5" value="9.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings5">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings5">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings5">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings5">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings5">
+                <span class="checkmark"></span>
+            </label>
+            <button class="click" onclick="addtea(5)">Add to cart</button>
+            <span class="click-close" onclick="closeM()">x</span> 
+        </div>
+    </div>
+</div>
+<div class="containertea6">
+    <div class="modal6">
+        <h6> Delighted Matcha Latte</br>開心抹茶拿铁</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/matcha-latte.png"alt="matcha latte"width="350px"height="350px";>
+              </div>
+              <div class="taste6">
+                The green tea gives this milky frothy drink a sweet, Moorish vegetal taste. You really have to try a matcha latte for yourself to truly understand its unique and smooth taste.
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium6"class="v-raw">Regular (500ml) <div class="cost">RM 9.50</div>
+              <input type="radio" name="size6" id="medium6" value="9.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large6"class="v-raw">Large (700ml) <div class="cost">RM 11.50</div>
+              <input type="radio" name="size6" id="large6" value="11.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings6">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings6">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings6">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings6">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings6">
+                <span class="checkmark"></span>
+            </label>
+            <button class="click" onclick="addtea(6)">Add to cart</button>
+            <span class="click-close" onclick="closeM()">x</span> 
+        </div>
+    </div>
+</div>
+<div class="containertea7">
+    <div class="modal7">
+        <h6> Uji Matcha Oreo Milk Tea</br>抹茶奥利奥</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/milk-matcha oreo.png"alt="oreo matcha"width="350px"height="350px";>
+              </div>
+              <div class="taste7">
+                A delicious dessert-like drink, a rich blend of our Uji green milk tea poured into a maple syrup cup with a crumbled Oreos taste the extra crunch with every sip.
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium7"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size7" id="medium7" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large7"class="v-raw">Large (700ml) <div class="cost">RM 12.50</div>
+              <input type="radio" name="size7" id="large7" value="12.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings7">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings7">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings7">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings7">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings7">
+                <span class="checkmark"></span>
+            </label>
+            <button class="click" onclick="addtea(7)">Add to cart</button>
+            <span class="click-close" onclick="closeM()">x</span> 
+        </div>
+    </div>
+</div>
+<div class="containertea8">
+    <div class="modal8">
+        <h6> Red Bean Uji Matcha</br>甜蜜抹茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/red bean-matcha.png"alt="red bean matcha"width="350px"height="350px";>
+              </div>
+              <div class="taste8">
+                Matcha powder is a unique balance of bitter, vegetal (think seaweed or edamame), and malty flavours, while the red beans add sweetness to the drink.
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium8"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size8" id="medium8" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large8"class="v-raw">Large (700ml) <div class="cost">RM 11.50</div>
+              <input type="radio" name="size8" id="large8" value="11.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings8">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings8">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings8">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings8">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings8">
+                <span class="checkmark"></span>
+            </label>
+        <button class="click" onclick="addtea(8)">Add to cart</button>
+        <span class="click-close" onclick="closeM()">x</span> 
+    </div>
+</div>
+</div>
+<div class="containertea9">
+    <div class="modal9">
+        <h6> Uji Matcha with Boba</br>波霸抹茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/boba-matcha.png"alt="boba matcha"width="350px"height="350px";>
+              </div>
+              <div class="taste9">
+                Treat yourself to a creamy and energizing Matcha bubble milk tea! Satisfy your bubble tea or boba craving while getting all the health benefits of matcha.
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium9"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size9" id="medium9" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large9"class="v-raw">Large (700ml) <div class="cost">RM 12.50</div>
+              <input type="radio" name="size9" id="large9" value="12.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings9">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings9">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings9">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings9">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings9">
+                <span class="checkmark"></span>
+            </label>
+        <button class="click" onclick="addtea(9)">Add to cart</button>
+        <span class="click-close" onclick="closeM()">x</span> 
+    </div>
+</div>
+</div>
+<div class="containertea10">
+    <div class="modal10">
+        <h6> Lemon Oolong Tea</br>柠檬乌龙茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/lemon-tea.png"alt="lemon oolong tea"width="350px"height="350px";>
+              </div>
+              <div class="taste4">
+                Drank this floral, fruity Lemon Oolong Tea, you will not only boost its health effects and support the antioxidant intake, but speed up your metabolism, and also support the natural detoxification process.
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium10"class="v-raw">Regular (500ml) <div class="cost">RM 9.50</div>
+              <input type="radio" name="size10" id="medium10" value="9.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large10"class="v-raw">Large (700ml) <div class="cost">RM 9.50</div>
+              <input type="radio" name="size10" id="large10" value="9.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings10">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings10">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings10">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings10">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings10">
+                <span class="checkmark"></span>
+            </label>
+        <button class="click" onclick="addtea(10)">Add to cart</button>
+        <span class="click-close" onclick="closeM()">x</span> 
+    </div>
+</div>
+</div>
+<div class="containertea11">
+    <div class="modal11">
+        <h6>Strawberry Black Tea</br>凉爽莓莓</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/strawberry-black-tea.png"alt="strawberry black tea"width="350px"height="350px";>
+              </div>
+              <div class="taste5">
+                Strawberry black tea combines the succulent taste of sweet strawberries with black tea. Fresh sweet-floral and berry flavor, smooth and sugary texture. It's a treat you'll want to keep for yourself! 
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium11"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size11" id="medium11" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large11"class="v-raw">Large (700ml) <div class="cost">RM 12.50</div>
+              <input type="radio" name="size11" id="large11" value="12.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings11">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings11">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings11">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings11">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings11">
+                <span class="checkmark"></span>
+            </label>
+        <button class="click" onclick="addtea(11)">Add to cart</button>
+        <span class="click-close" onclick="closeM()">x</span> 
+    </div>
+</div>
+</div>
+<div class="containertea12">
+    <div class="modal12">
+        <h6> Lychee Jasmine Green Tea</br>荔枝茉莉</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/lychee-green-tea.png"alt="lychee green tea"width="350px"height="350px";>
+              </div>
+              <div class="taste6">
+                Green tea, jasmine, and juicy, sweet lychee fruit come together beautifully in this blend. Smooth and easy fruity taste sure to get your taste buds zinging. From the first sip, you’ll understand what makes it so popular!
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium12"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size12" id="medium12" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large12"class="v-raw">Large (700ml) <div class="cost">RM 12.50</div>
+              <input type="radio" name="size12" id="large12" value="12.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings12">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings12">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings12">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings12">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings12">
+                <span class="checkmark"></span>
+            </label>
+        <button class="click" onclick="addtea(12)">Add to cart</button>
+        <span class="click-close" onclick="closeM()">x</span> 
+    </div>
+</div>
+</div>
+<div class="containertea13">
+    <div class="modal13">
+        <h6> Supreme Kiwi Honey</br>至上猕猴桃</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/green-tea-moothie.png"alt="kiwi honey"width="350px"height="350px";>
+              </div>
+              <div class="taste7">
+                Kiwi is a delicious fruit with a unique taste. The Supreme Kiwi Honey has a tangy taste that is great for making a refreshing kiwi drink. This can be taken as a light meal and are a real treat on warm days.
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium13"class="v-raw">Regular (500ml) <div class="cost">RM 9.50</div>
+              <input type="radio" name="size13" id="medium13" value="9.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large13"class="v-raw">Large (700ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size13" id="large13" value="10.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings13">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings13">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings13">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings13">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings13">
+                <span class="checkmark"></span>
+            </label>
+        <button class="click" onclick="addtea(13)">Add to cart</button>
+        <span class="click-close" onclick="closeM()">x</span> 
+    </div>
+</div>
+</div>
+<div class="containertea14">
+    <div class="modal14">
+        <h6> Supreme Blueberry</br>至上蓝莓</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/blueberry-tea.png"alt="blueberry blueberry tea"width="350px"height="350px";>
+              </div>
+              <div class="taste8">
+                A cup of Blueberry black tea is a must-tea for every tea lover. It has a strong fruit flavor and good body, and a smooth, long-lasting finish. It can reduce the risk of developing tumors and cancer.
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium14"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size14" id="medium14" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large14"class="v-raw">Large (700ml) <div class="cost">RM 12.50</div>
+              <input type="radio" name="size14" id="large14" value="12.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings14">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings14">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings14">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings14">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings14">
+                <span class="checkmark"></span>
+            </label>
+        <button class="click" onclick="addtea(14)">Add to cart</button>
+        <span class="click-close" onclick="closeM()">x</span> 
+    </div>
+</div>
+</div>
+<div class="containertea15">
+    <div class="modal15">
+        <h6>Hisbiscus Tea</br>養顏花茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/kisspng-hibiscus-tea.png"alt="hibiscus tea"width="350px"height="350px";>
+              </div>
+              <div class="taste9">
+                Hibiscus tea has a flavor profile that includes fruity, sweet, sour, and astringent notes. It can help boost your immune system and may help to prevent cell damage caused by free radicals in the body.             </div>
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium15"class="v-raw">Regular (500ml) <div class="cost">RM 9.50</div>
+              <input type="radio" name="size15" id="medium15" value="9.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large15"class="v-raw">Large (700ml) <div class="cost">RM 11.50</div>
+              <input type="radio" name="size15" id="large15" value="11.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings15">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings15">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings15">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings15">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings15">
+                <span class="checkmark"></span>
+            </label>
+        <button class="click" onclick="addtea(15)">Add to cart</button>
+        <span class="click-close" onclick="closeM()">x</span> 
+    </div>
+</div>
+</div>
+<div class="containertea16">
+    <div class="modal16">
+        <h6> Roselle tea</br>洛神花花茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/kisspng-flowering-tea.png"alt="Roselle tea"width="350px"height="350px";>
+              </div>
+              <div class="taste8">
+                Drinking roselle juice has many health benefits.Dinking roselle juice may help relieve menstrual cramps and is an anti-inflammatory. Additionally, it can support a healthy digestive.
+            </div>             
+                <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium16"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size16" id="medium16" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large16"class="v-raw">Large (700ml) <div class="cost">RM 12.50</div>
+              <input type="radio" name="size16" id="large16" value="12.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings16">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings16">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings16">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings16">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings16">
+                <span class="checkmark"></span>
+            </label>
+        <button class="click" onclick="addtea(16)">Add to cart</button>
+        <span class="click-close" onclick="closeM()">x</span> 
+    </div>
+</div>
+</div>
+<div class="containertea17">
+    <div class="modal17">
+        <h6>Herbal Tea</br>清凉茶</h6>
+        <span class="lines"></span>
+        <div class="modal-body">
+            <div class="img1">
+                <img src="/picture/kisspng-herbal-tea.png"alt="herbal tea"width="350px"height="350px";>
+              </div>
+              <div class="taste9">
+                The antioxidants and vitamins found in herbal teas are great for helping fight disease and infections, protect against oxidative stress and lower the risk of chronic disease.             
+            </div>
+              <div class="titre"><b>Variation (Required)</b><br><div class="selected">Select 1</div></div>
+              <label for="medium17"class="v-raw">Regular (500ml) <div class="cost">RM 10.50</div>
+              <input type="radio" name="size17" id="medium17" value="10.50" checked>
+              <span class="checkmark"></span>
+            </label>
+              <label for="large17"class="v-raw">Large (700ml) <div class="cost">RM 12.50</div>
+              <input type="radio" name="size17" id="large17" value="12.50">
+              <span class="checkmark"></span></label>
+              <div class="titre">
+                <b>Extra Toppings (Optional)</b><br><div class="selected">Select up to 5</div>
+              </div>
+            <label class="v-raw">Pearl
+                <input type="checkbox" value="Pearl" name="toppings17">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Grass Jelly
+                <input type="checkbox" value="Grass Jelly" name="toppings17">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Nata de coco
+                <input type="checkbox" value="Nata de coco" name="toppings17">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Oreo Crumbs
+                <input type="checkbox" value="Oreo Crumbs" name="toppings17">
+                <span class="checkmark"></span>
+            </label>
+            <label class="v-raw">Salted Cheese
+                <input type="checkbox" value="Salted Cheese" name="toppings17">
+                <span class="checkmark"></span>
+            </label>
+            <button class="click" onclick="addtea(17)">Add to cart</button>
+            <span class="click-close" onclick="closeM()">x</span> 
+        </div>
+    </div>
+</div>
+
+<!--Customer Order list-->
+<section id="down">
+    <div class="cart">
+        <h1>Orders details</h1>
+        <ul class="items" id="items">
+
+        </ul>
+        <h3 id="total" style="text-align: right;">Total: RM 0 </h3>
+        <div class="paymentbutton">
+          <a href="payment.html">Place Your Order</a>
+        </div>
+    </div>
+</section>
+
+<script>
+   var order1 = document.querySelector('.containertea1');
+    var order2 = document.querySelector('.containertea2');
+    var order3 = document.querySelector('.containertea3');
+    var order4 = document.querySelector('.containertea4');
+    var order5 = document.querySelector('.containertea5');
+    var order6 = document.querySelector('.containertea6');
+    var order7 = document.querySelector('.containertea7');
+    var order8 = document.querySelector('.containertea8');
+    var order9 = document.querySelector('.containertea9');
+    var order10 = document.querySelector('.containertea10');
+    var order11 = document.querySelector('.containertea11');
+    var order12 = document.querySelector('.containertea12');
+    var order13 = document.querySelector('.containertea13');
+    var order14 = document.querySelector('.containertea14');
+    var order15 = document.querySelector('.containertea15');
+    var order16 = document.querySelector('.containertea16');
+    var order17 = document.querySelector('.containertea17');
+    orderList = [order1, order2, order3, order4 ,order5, order6, order7, order8, order9, order10, order11, order12,order13,order14, order15, order16,order17];
+      
+      function choose(n) {
+        order = orderList[n-1];
+        order.classList.add('modal');
+      }
+      
+      function closeM() {
+        order.classList.remove('modal'); 
+      }
+      
+      itemList = document.getElementById('items');
+      
+      total = 0;
+      bill = document.getElementById('total');
+      
+      addId = 0;
+      
+      function addtea(n) {
+          alert("Successfully added to cart!");
+          
+          teaId = 'tea' + n;
+          tea = document.getElementById(teaId).innerHTML;
+          console.log(tea);
+          
+          si = 'size' + n;
+          pr = document.getElementsByName(si);
+          price = pr[0].value;
+          size = 'Regular RM ' + price;
+          if (pr[1].checked) {
+              price = pr[1].value;
+              size = 'Large RM ' + price; 
+          }
+         
+          toppings = 'toppings' + n; 
+          toppingsadd = document.getElementsByName(toppings);
+          add_toppings = '';
+          toppingsadd.forEach(element => {
+              if (element.checked) {
+                add_toppings += element.value + ' '; 
+              }
+          });
+          if (add_toppings !== '') {
+            add_toppings = '<br>' + '+'+add_toppings;
+          }
+          
+          addId += 1;
+          removeId = 'article' + addId;
+          
+          itemList.innerHTML += '<li id="' + removeId + '" data-price="' +price + '">' 
+                              + tea + ' : ' + size 
+                              + add_toppings + '</li>';
+         
+          document.getElementById(removeId).innerHTML += '<button onclick="removetea('+"'"+removeId+"'"+')">x</button>'
+         
+          total += Number(price);
+          bill.innerHTML = 'Total: RM ' + total; 
+      }
+      
+      function removetea(removeId) {
+          article = document.getElementById(removeId);
+  
+          pri = article.dataset.price;
+          article.remove();
+          total -= Number(pri);          
+          bill.innerHTML = 'Total: RM' + total;
+      }
+</script>
+
+<map name="hotspot">
+    <area shape="circle" coords="191,170,368" href="/html/home.html">
+</map>
+
+</body>
+<footer><br/>KAI XIN SHIN All right reserved . BEVERAGES . ONLINE WEBSITE</footer>
+</html>

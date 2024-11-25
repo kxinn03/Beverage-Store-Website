@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!--
+    Starting Page of KAI XIN SHIN TEA
+    Author: CHEAH SHIN YEE
+    Date:   24-11-2021
+
+    Filename: customer.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <meta name="keywords" content="Kar, Xin, Shin, Tea, Milik" />
+   <title>KAI XIN SHIN TEA . Customer Feedback</title>
+   <link href="/css/customer.css" rel="stylesheet"/>
+   <link href="/css/all.css" rel="stylesheet"/>
+   <link rel="icon" href="/picture/logo3.png" type="image/gif" sizes="16x16"> 
+   <script src="/js/customer.js"></script>
+</head>
+
+<body>
+   <h4><img src="/picture/headerlogo.png" alt="logo" usemap="#hotspot">Customer Feedback</h4>
+   <nav>
+       <ul class="navbar">
+           <li><a href="/html/home.html">Home</a></li>
+           <li><a href="/html/aboutus.html">About Us</a></li>
+           <li><a href="/html/menu.html">Menu</a>
+               <ul class="subMenu">
+                   <li><a href="/html/detail_page.html">Details </a></li>
+               </ul>
+           </li>
+           <li><a href="/html/membership.html">Membership</a></li>
+           <li><a href="/html/joinus.html">Join Us</a>
+               <ul class="subMenu">
+                   <li><a href="/html/jobposition.html">Job Positions</a></li>
+               </ul> 
+           </li>
+           <li><a href="/html/outlets.html">Outlets</a></li>
+           <li><a href="/html/event_update.HTML">Event Update</a></li>
+           <li><a href="/html/privacy.html">Privacy Policy</a>
+               <ul class="subMenu">
+                   <li><a href="/html/t&c.html">Terms And Conditions</a></li>
+               </ul>
+           </li>
+           <li><a href="/html/customer.html">Customer Feedback</a></li>
+       </nav> 
+   <br/>
+   <section>
+      <h2>CUSTOMER FEEDBACK FORM</h2>
+      <p><b>Thank you for deciding to work with us. At any moment, we are 
+         ready to give you the finest service possible.</b></p>
+
+      <p><b>Thank you very much for your assistance in completing this form. 
+         Your candid input will enable us to better serve you and try to 
+         raise our service standards. Thank you very much.</b></p>
+
+               <form id="survey" action="../html/thanks.html" method="get">
+                  <fieldset id="custInfo">
+                  <legend><b>Customer Information</b></legend><br>
+                  <div class="inf">
+                      <label for="cusname"><b>NAME*:</b></label><br />
+                      <input type="text" name="cusname" id="cusname" placeholder="Kai Xin Shin" required/>
+                   </div>
+      
+                   <div class="inf">
+                      <br />
+                     <label for="cusemail"><b>EMAIL*:</b></label><br />
+                     <input type="email" name="cusemail" id="cusemail" placeholder="kaixinshin@example.com" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+                  </div>
+      
+                  <div class="inf">
+                     <br />
+                     <label for="cusphone"><b>PHONE*:</b></label><br />
+                     <input type="tel" name="cusphone" id="cusphone" placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+                  </div>
+                  </fieldset>
+
+                  <fieldset id="expInfo">
+                     <legend><b>How About Us?<br/> Please Share Your Experience</b></legend>
+                     <label for="order"> <b>What did you order?</b></label><br/>
+                     <select name="orderTypes" id="order">
+                        <option value="order1" selected>Signature</option>
+                        <option value="order2">Matcha Lover</option>
+                        <option value="order3">Premuim Fruit Tea</option>
+                        <option value="order5">Special For You</option>
+                     </select>
+     
+                     <div class="visitTime">
+                        <br/>
+                         <label for="visit"><b>Date of visit*:</b></label>
+                         <input name="visit" id="visit" type="datetime-local" required/>
+                     </div>
+
+                     <div class="expe">
+                        <br/>
+                        <label><b>Quality of Drink</b></label>
+                        <fieldset class="opt">
+                           <input name="Quality" id="100" value="100prt" type="radio" checked/>
+                           <label for="100">100%</label>
+                           <br/>
+                           <input name="Quality" id="80" value="80prt" type="radio" />
+                           <label for="80">80%</label>
+                           <br/>
+                           <input name="Quality" id="60" value="60prt" type="radio" />
+                           <label for="60">60%</label>
+                           <br/>
+                            <input name="Quality" id="40" value="40prt" type="radio" />
+                            <label for="40">40%</label>
+                        </fieldset>
+                    </div>
+
+                    <div class="expe">
+                       <br/>
+                     <label><b>Service</b></label>
+                     <fieldset class="opt">
+                         <input name="service" id="q100" value="100prt" type="radio" checked />
+                         <label for="q100">100%</label>
+                         <br/>
+                         <input name="service" id="q80" value="80prt" type="radio" />
+                         <label for="q80">80%</label>
+                         <br/>
+                         <input name="service" id="q60" value="60prt" type="radio" />
+                         <label for="q60">60%</label>
+                         <br/>
+                         <input name="service" id="q40" value="40prt" type="radio" />
+                         <label for="q40">40%</label>
+                     </fieldset>
+                 </div>
+
+                 <div class="expe">
+                    <br/>
+                  <label><b>Overall Value</b></label>
+                  <fieldset class="opt">
+                      <input name="overall" id="w100" value="100prt" type="radio" checked />
+                      <label for="w100">100%</label>
+                      <br/>
+                      <input name="overall" id="w80" value="80prt" type="radio" />
+                      <label for="w80">80%</label>
+                      <br/>
+                      <input name="overall" id="w60" value="60prt" type="radio" />
+                      <label for="w60">60%</label>
+                      <br/>
+                      <input name="overall" id="w40" value="40prt" type="radio" />
+                      <label for="w40">40%</label>
+                  </fieldset>
+              </div>
+
+              <br/>
+              <label for="more"><b>Comment?</b></label><br/>
+              <textarea name="more" id="more" placeholder="What Do You Want To Tell Us?" ></textarea>
+          </fieldset>
+
+          <div id="buttons">
+            <input type="submit" value="submit">
+              <input type="reset" value="Reset" />
+          </div>
+      </form>
+   </section>
+
+   <button onclick="topFunction()" id="myBtn" title="Go To Top">&#8682;</button>
+   
+   <script>
+      var mybutton = document.getElementById("myBtn");
+ 
+      window.onscroll = function() {scrollFunction()};
+ 
+       function scrollFunction() {
+          if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+             mybutton.style.display = "block";
+          } else {
+             mybutton.style.display = "none";
+          }
+       }
+ 
+       function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+       }
+   </script>
+
+<footer><br/>KAI XIN SHIN All right reserved . BEVERAGES . ONLINE WEBSITE</footer>
+
+   <map name="hotspot">
+      <area shape="circle" coords="191,170,368" href="/html/home.html">
+  </map>
+</body>
+</html>
